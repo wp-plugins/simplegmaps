@@ -1,0 +1,19 @@
+/* 
+    Document   : style.css
+    Created on : 04-may-2012, 12:38:05
+    Author     : Javier Méndez
+    Description:
+        CSS para el plugin de wordpress SimpleGMaps. Indica el estilo del plano que agregamos.
+*/
+
+
+.simpleGMaps {
+        margin: 0;
+        padding: 0;     
+        border: none;        
+      }
+	  
+.simpleGMaps img {   
+    /* En algunos Themes tiene esto al 100% y causa que no se visualicen bien las imágenes del mapa.*/
+    max-width:none !important; 
+}
